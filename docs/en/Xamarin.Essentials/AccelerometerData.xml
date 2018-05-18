@@ -1,0 +1,39 @@
+<Type Name="AccelerometerData" FullName="Xamarin.Essentials.AccelerometerData">
+  <TypeSignature Language="C#" Value="public struct AccelerometerData" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit AccelerometerData extends System.ValueType" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Essentials.AccelerometerData" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Essentials</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Data representing the devies' three accelerometers.</summary>
+    <remarks>
+      <para></para>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Acceleration">
+      <MemberSignature Language="C#" Value="public System.Numerics.Vector3 Acceleration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Numerics.Vector3 Acceleration" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Essentials.AccelerometerData.Acceleration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Essentials</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Numerics.Vector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the acceleration vector in G's (gravitational force). </summary>
+        <value></value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

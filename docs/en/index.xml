@@ -1,12 +1,12 @@
 <Overview>
   <Assemblies>
-    <Assembly Name="Microsoft.Caboodle" Version="1.0.0.0">
+    <Assembly Name="Xamarin.Essentials" Version="1.0.0.0">
       <Attributes>
         <Attribute>
           <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Reflection.AssemblyCompany("Xamarin Inc.")</AttributeName>
+          <AttributeName>System.Reflection.AssemblyCompany("Microsoft")</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName>System.Reflection.AssemblyConfiguration("Release")</AttributeName>
@@ -15,19 +15,19 @@
           <AttributeName>System.Reflection.AssemblyCopyright("© Microsoft Corporation. All rights reserved.")</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Reflection.AssemblyDescription("Microsoft Caboodle: a kit of essential API's for your apps")</AttributeName>
+          <AttributeName>System.Reflection.AssemblyDescription("Xamarin.Essentials: a kit of essential API's for your apps")</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName>System.Reflection.AssemblyFileVersion("1.0.0.0")</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Reflection.AssemblyInformationalVersion("1.0.0.0")</AttributeName>
+          <AttributeName>System.Reflection.AssemblyInformationalVersion("1.0.0")</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Reflection.AssemblyProduct("Microsoft.Caboodle (MonoAndroid80)")</AttributeName>
+          <AttributeName>System.Reflection.AssemblyProduct("Xamarin.Essentials (netstandard2.0)")</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Reflection.AssemblyTitle("Microsoft.Caboodle")</AttributeName>
+          <AttributeName>System.Reflection.AssemblyTitle("Xamarin.Essentials")</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName>System.Resources.NeutralResourcesLanguage("en")</AttributeName>
@@ -36,90 +36,16 @@
           <AttributeName>System.Runtime.CompilerServices.CompilationRelaxations(8)</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Tests")</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Runtime.Versioning.TargetFramework("MonoAndroid,Version=v8.0", FrameworkDisplayName="Xamarin.Android v8.0 Support")</AttributeName>
-        </Attribute>
-      </Attributes>
-    </Assembly>
-    <Assembly Name="Microsoft.Caboodle" Version="1.0.0.0">
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("DeviceTests.Android")</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Reflection.AssemblyCompany("Xamarin Inc.")</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("DeviceTests.UWP")</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Reflection.AssemblyConfiguration("Release")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Reflection.AssemblyCopyright("© Microsoft Corporation. All rights reserved.")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Reflection.AssemblyDescription("Microsoft Caboodle: a kit of essential API's for your apps")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Reflection.AssemblyFileVersion("1.0.0.0")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Reflection.AssemblyInformationalVersion("1.0.0.0")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Reflection.AssemblyProduct("Microsoft.Caboodle (netstandard1.0)")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Reflection.AssemblyTitle("Microsoft.Caboodle")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Resources.NeutralResourcesLanguage("en")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.CompilationRelaxations(8)</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Runtime.Versioning.TargetFramework(".NETStandard,Version=v1.0", FrameworkDisplayName="")</AttributeName>
-        </Attribute>
-      </Attributes>
-    </Assembly>
-    <Assembly Name="Microsoft.Caboodle" Version="1.0.0.0">
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Reflection.AssemblyCompany("Xamarin Inc.")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Reflection.AssemblyConfiguration("Release")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Reflection.AssemblyCopyright("© Microsoft Corporation. All rights reserved.")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Reflection.AssemblyDescription("Microsoft Caboodle: a kit of essential API's for your apps")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Reflection.AssemblyFileVersion("1.0.0.0")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Reflection.AssemblyInformationalVersion("1.0.0.0")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Reflection.AssemblyProduct("Microsoft.Caboodle (netstandard2.0)")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Reflection.AssemblyTitle("Microsoft.Caboodle")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Resources.NeutralResourcesLanguage("en")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.CompilationRelaxations(8)</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Xamarin.EssentialsDeviceTestsiOS")</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName>System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)</AttributeName>
@@ -129,103 +55,111 @@
         </Attribute>
       </Attributes>
     </Assembly>
-    <Assembly Name="Microsoft.Caboodle" Version="1.0.0.0">
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Reflection.AssemblyCompany("Xamarin Inc.")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Reflection.AssemblyConfiguration("Release")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Reflection.AssemblyCopyright("© Microsoft Corporation. All rights reserved.")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Reflection.AssemblyDescription("Microsoft Caboodle: a kit of essential API's for your apps")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Reflection.AssemblyFileVersion("1.0.0.0")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Reflection.AssemblyInformationalVersion("1.0.0.0")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Reflection.AssemblyProduct("Microsoft.Caboodle (uap10.0.16299)")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Reflection.AssemblyTitle("Microsoft.Caboodle")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Resources.NeutralResourcesLanguage("en")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.CompilationRelaxations(8)</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Runtime.Versioning.TargetFramework(".NETCore,Version=v5.0", FrameworkDisplayName=".NET for Windows Universal")</AttributeName>
-        </Attribute>
-      </Attributes>
-    </Assembly>
-    <Assembly Name="Microsoft.Caboodle" Version="1.0.0.0">
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Reflection.AssemblyCompany("Xamarin Inc.")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Reflection.AssemblyConfiguration("Release")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Reflection.AssemblyCopyright("© Microsoft Corporation. All rights reserved.")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Reflection.AssemblyDescription("Microsoft Caboodle: a kit of essential API's for your apps")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Reflection.AssemblyFileVersion("1.0.0.0")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Reflection.AssemblyInformationalVersion("1.0.0.0")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Reflection.AssemblyProduct("Microsoft.Caboodle (Xamarin.iOS10)")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Reflection.AssemblyTitle("Microsoft.Caboodle")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Resources.NeutralResourcesLanguage("en")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.CompilationRelaxations(8)</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Runtime.Versioning.TargetFramework("Xamarin.iOS,Version=v1.0", FrameworkDisplayName="Xamarin.iOS")</AttributeName>
-        </Attribute>
-      </Attributes>
-    </Assembly>
   </Assemblies>
-  <Remarks>To be added.</Remarks>
-  <Copyright>To be added.</Copyright>
+  <Remarks></Remarks>
+  <Copyright>© Microsoft Corporation. All rights reserved.</Copyright>
   <Types>
-    <Namespace Name="Microsoft.Caboodle">
+    <Namespace Name="Xamarin.Essentials">
+      <Type Name="Accelerometer" Kind="Class" />
+      <Type Name="AccelerometerChangedEventArgs" Kind="Class" />
+      <Type Name="AccelerometerChangedEventHandler" Kind="Delegate" />
+      <Type Name="AccelerometerData" Kind="Structure" />
+      <Type Name="AppInfo" Kind="Class" />
+      <Type Name="Battery" Kind="Class" />
+      <Type Name="BatteryChangedEventArgs" Kind="Class" />
+      <Type Name="BatteryChangedEventHandler" Kind="Delegate" />
+      <Type Name="BatteryPowerSource" Kind="Enumeration" />
+      <Type Name="BatteryState" Kind="Enumeration" />
+      <Type Name="Browser" Kind="Class" />
+      <Type Name="BrowserLaunchType" Kind="Enumeration" />
+      <Type Name="Clipboard" Kind="Class" />
+      <Type Name="Compass" Kind="Class" />
+      <Type Name="CompassChangedEventArgs" Kind="Class" />
+      <Type Name="CompassChangedEventHandler" Kind="Delegate" />
+      <Type Name="CompassData" Kind="Structure" />
+      <Type Name="ConnectionProfile" Kind="Enumeration" />
+      <Type Name="Connectivity" Kind="Class" />
+      <Type Name="ConnectivityChangedEventArgs" Kind="Class" />
+      <Type Name="ConnectivityChangedEventHandler" Kind="Delegate" />
+      <Type Name="DataTransfer" Kind="Class" />
+      <Type Name="DeviceDisplay" Kind="Class" />
+      <Type Name="DeviceInfo" Kind="Class" />
+      <Type Name="DeviceInfo+Idioms" Kind="Class" />
+      <Type Name="DeviceInfo+Platforms" Kind="Class" />
+      <Type Name="DeviceType" Kind="Enumeration" />
+      <Type Name="DistanceUnits" Kind="Enumeration" />
+      <Type Name="Email" Kind="Class" />
+      <Type Name="EmailBodyFormat" Kind="Enumeration" />
+      <Type Name="EmailMessage" Kind="Class" />
+      <Type Name="FeatureNotSupportedException" Kind="Class" />
       <Type Name="FileSystem" Kind="Class" />
-      <Type Name="NotImplentedInReferenceAssembly" Kind="Class" />
+      <Type Name="Flashlight" Kind="Class" />
+      <Type Name="Geocoding" Kind="Class" />
+      <Type Name="Geolocation" Kind="Class" />
+      <Type Name="GeolocationAccuracy" Kind="Enumeration" />
+      <Type Name="GeolocationRequest" Kind="Class" />
+      <Type Name="Gyroscope" Kind="Class" />
+      <Type Name="GyroscopeChangedEventArgs" Kind="Class" />
+      <Type Name="GyroscopeChangedEventHandler" Kind="Delegate" />
+      <Type Name="GyroscopeData" Kind="Structure" />
+      <Type Name="Locale" Kind="Structure" />
+      <Type Name="Location" Kind="Class" />
+      <Type Name="LocationExtensions" Kind="Class" />
+      <Type Name="Magnetometer" Kind="Class" />
+      <Type Name="MagnetometerChangedEventArgs" Kind="Class" />
+      <Type Name="MagnetometerChangedEventHandler" Kind="Delegate" />
+      <Type Name="MagnetometerData" Kind="Structure" />
+      <Type Name="NetworkAccess" Kind="Enumeration" />
+      <Type Name="NotImplementedInReferenceAssemblyException" Kind="Class" />
+      <Type Name="PermissionException" Kind="Class" />
+      <Type Name="PhoneDialer" Kind="Class" />
+      <Type Name="Placemark" Kind="Class" />
       <Type Name="Platform" Kind="Class" />
       <Type Name="Preferences" Kind="Class" />
-      <Type Name="PreferencesExtensions" Kind="Class" />
+      <Type Name="ScreenLock" Kind="Class" />
+      <Type Name="ScreenMetrics" Kind="Structure" />
+      <Type Name="ScreenMetricsChanagedEventArgs" Kind="Class" />
+      <Type Name="ScreenMetricsChanagedEventHandler" Kind="Delegate" />
+      <Type Name="ScreenOrientation" Kind="Enumeration" />
+      <Type Name="ScreenRotation" Kind="Enumeration" />
+      <Type Name="SecureStorage" Kind="Class" />
+      <Type Name="SensorSpeed" Kind="Enumeration" />
+      <Type Name="ShareTextRequest" Kind="Class" />
+      <Type Name="Sms" Kind="Class" />
+      <Type Name="SmsMessage" Kind="Class" />
+      <Type Name="SpeakSettings" Kind="Class" />
+      <Type Name="TextToSpeech" Kind="Class" />
+      <Type Name="VersionTracking" Kind="Class" />
+      <Type Name="Vibration" Kind="Class" />
     </Namespace>
   </Types>
   <Title>Untitled</Title>
+  <ExtensionMethods>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Xamarin.Essentials.Location" />
+      </Targets>
+      <Member MemberName="CalculateDistance">
+        <MemberSignature Language="C#" Value="public static double CalculateDistance (this Xamarin.Essentials.Location locationStart, Xamarin.Essentials.Location locationEnd, Xamarin.Essentials.DistanceUnits units);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 CalculateDistance(class Xamarin.Essentials.Location locationStart, class Xamarin.Essentials.Location locationEnd, valuetype Xamarin.Essentials.DistanceUnits units) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Xamarin.Essentials.LocationExtensions.CalculateDistance(Xamarin.Essentials.Location,Xamarin.Essentials.Location,Xamarin.Essentials.DistanceUnits)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Double</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="locationStart" Type="Xamarin.Essentials.Location" RefType="this" />
+          <Parameter Name="locationEnd" Type="Xamarin.Essentials.Location" />
+          <Parameter Name="units" Type="Xamarin.Essentials.DistanceUnits" />
+        </Parameters>
+        <Docs>
+          <param name="locationStart">Start location to calculate from.</param>
+          <param name="locationEnd">End location to calculate from.</param>
+          <param name="units">Units to use during calculation.</param>
+          <summary>Extension to calculate distance from location to another location.</summary>
+        </Docs>
+        <Link Type="Xamarin.Essentials.LocationExtensions" Member="M:Xamarin.Essentials.LocationExtensions.CalculateDistance(Xamarin.Essentials.Location,Xamarin.Essentials.Location,Xamarin.Essentials.DistanceUnits)" />
+      </Member>
+    </ExtensionMethod>
+  </ExtensionMethods>
 </Overview>

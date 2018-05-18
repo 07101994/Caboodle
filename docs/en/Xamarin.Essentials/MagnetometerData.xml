@@ -1,0 +1,39 @@
+<Type Name="MagnetometerData" FullName="Xamarin.Essentials.MagnetometerData">
+  <TypeSignature Language="C#" Value="public struct MagnetometerData" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit MagnetometerData extends System.ValueType" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Essentials.MagnetometerData" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Essentials</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Data for magnetometer changes.</summary>
+    <remarks>
+      <para></para>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="MagneticField">
+      <MemberSignature Language="C#" Value="public System.Numerics.Vector3 MagneticField { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Numerics.Vector3 MagneticField" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Essentials.MagnetometerData.MagneticField" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Essentials</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Numerics.Vector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the magnetic field vector in microteslas.</summary>
+        <value></value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,39 @@
+<Type Name="GyroscopeData" FullName="Xamarin.Essentials.GyroscopeData">
+  <TypeSignature Language="C#" Value="public struct GyroscopeData" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit GyroscopeData extends System.ValueType" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Essentials.GyroscopeData" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Essentials</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Gyroscope information.</summary>
+    <remarks>
+      <para></para>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AngularVelocity">
+      <MemberSignature Language="C#" Value="public System.Numerics.Vector3 AngularVelocity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Numerics.Vector3 AngularVelocity" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Essentials.GyroscopeData.AngularVelocity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Essentials</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Numerics.Vector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the angular velocity vector in rad/s.</summary>
+        <value></value>
+        <remarks></remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
